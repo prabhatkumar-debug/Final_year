@@ -35,13 +35,13 @@ def recievefilepage():
 	webbrowser.open_new(r"http://127.0.0.1:5000/file-directory")
 
 def opengithub(event):
-	webbrowser.open_new(r"https://github.com/parthendo/thrain")
+	webbrowser.open_new(r"https://github.com/prabhatkumar-debug/Final_year")
 
 def openparthlinkedin(event):
-	webbrowser.open_new(r"https://in.linkedin.com/in/parth-trehan")
+	webbrowser.open_new(r"https://www.linkedin.com/in/prabhatkumar-/")
 
 def openhardiklinkedin(event):
-	webbrowser.open_new(r"https://in.linkedin.com/in/hardik-gaur-135891122")
+	webbrowser.open_new(r"https://www.linkedin.com/in/ankita-jaiswal-5ab4b91aa/")
 '''
 -----------------------------------------------------------------
 UPDATE ENTRY LABELS
@@ -235,12 +235,12 @@ def main():
 	padding.grid(row=3)
 	text2 = Label(Aboutus, text="Contributed by: ")
 	text2.grid(row=4, sticky='S')
-	hardiksocial = Label(Aboutus, text="Hardik Gaur")
+	hardiksocial = Label(Aboutus, text="Atul  |     Ankita")
 	hardiksocial.bind("<Button-1>",openhardiklinkedin)
 	hardiksocial.grid(row=5, sticky='SW',padx = 8)
 	text3 = Label(Aboutus, text="|")
 	text3.grid(row=5)
-	parthsocial = Label(Aboutus, text="Parth Trehan")
+	parthsocial = Label(Aboutus, text="Prabhat")
 	parthsocial.bind("<Button-1>",openparthlinkedin)
 	parthsocial.grid(row=5, sticky='SE',padx = 8)
 
